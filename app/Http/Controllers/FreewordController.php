@@ -8,7 +8,6 @@ class FreewordController extends Controller
 {
     public function freeword($comment)
     {
-        $freemessage = '自由なメッセージ';
-        return view('freemessage', ['freemessage' => $freemessage, 'comment' => $comment]);
+        return view('free_message', ['comment' => $comment]);
     }
 }

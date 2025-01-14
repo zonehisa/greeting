@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>{{ $freemessage }}</h1>
+    <h1>自由なメッセージ</h1>
     <h2>{{ $comment }}</h2>
 </body>
 

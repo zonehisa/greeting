@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>{{ $timegreet }}</h1>
+    <h1>{{ $heading }}</h1>
     <h2>{{ $greeting }}</h2>
 </body>
 
