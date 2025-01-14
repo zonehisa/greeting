@@ -25,9 +25,6 @@ class GreetingsController extends Controller
                 $timegreet = '夜のあいさつ';
                 $greeting = 'おやすみ';
                 break;
-            default:
-                $timegreet = 'morning,afternoon,evening,nightの中から入力してください！！';
-                $greeting = 'もう一度チャンスをやろう';
         }
         return view('greetings', ['timegreet' => $timegreet, 'greeting' => $greeting]);
     }
